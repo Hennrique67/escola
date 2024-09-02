@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    <title>Na Mata</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/party-passo0.jpg" alt="">
+            <p>Você está numa festa, mas está ficando muito tarde...</p>
+            <button class="btn-proximo" data-proximo="3">Vá para casa</button>
+            <button class="btn-proximo" data-proximo="1">Fique</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/bebida-passo1.jpg" alt="">
+            <p>Te oferecem bebidas...</p>
+            <button class="btn-proximo" data-proximo="2">Recusar</button>
+            <button class="btn-proximo" data-proximo="12">Aceitar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/porta-passo2.png" alt="">
+            <p>Você teve uma ótima noite, ta na hora de ir para casa</p>
+            <button class="btn-proximo" data-proximo="3">Continuar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Caminhando na Mata você ouve um baralho diferente vindo de dentro..</p>
+            <button class="btn-proximo" data-proximo="4">Investigar</button>
+            <button class="btn-proximo" data-proximo="5">Ignorar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/mataprofunda-passo4.png" alt="">
+            <p>Quanto mais você adentra na mata mais intenso fica o barulho...</p>
+            <button class="btn-proximo" data-proximo="6">Continue em frente?</button>
+            <button class="btn-proximo" data-proximo="5">Olhe para trás</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/casa-passo5.jpg" alt="">
+            <p>Você chegou em casa, parece que você está só</p>
+            <button class="btn-proximo" data-proximo="9">Vá para dentro</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/matamaisfunda-passo6.jpg" alt="">
+            <p>Você descobriu a origem do som, parece que está perto do canto...</p>
+            <button class="btn-proximo" data-proximo="7">Olhe</button>
+            <button class="btn-proximo" data-proximo="8">Corra para casa, você esta peidando</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/monster-passo7.png" alt="">
+            <p>VOCÊ ENCONTROU O BARULHO
+                A CURIOSIDADE TE MATOU.
+            </p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/persegue-passo8.png" alt="">
+            <p>O BARALHO TE PERSEGUE.</p>
+            <button class="btn-proximo" data-proximo="5">Corra para casa</button>
+            <button class="btn-proximo" data-proximo="11">Corra de volta para festa para te ajudarem</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cama-passo9.jpg" alt="">
+            <p>Você está se cansando</p>
+            <button class="btn-proximo" data-proximo="10">Vá dormir</button>
+            <button class="btn-proximo" data-proximo="19">Continue acordado só mais um pouquinho</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/manha-passo10.png" alt="">
+            <p>AMANHCEU
+                Você dormiu durante a noite e passou por tudo seguro.
+            </p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/caminho-passo11.png" alt="">
+            <p>Para qual lado era a festa!?</p>
+            <button class="btn-proximo" data-proximo="12">Esquerda</button>
+            <button class="btn-proximo" data-proximo="15">Direita</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você cometeu um erro... Você caiu e desmaiou</p>
+            <button class="btn-proximo" data-proximo="13">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/acorde-passo13.png" alt="">
+            <p>Você acordou, ainda está escuro e você esta no meio da mata.</p>
+            <button class="btn-proximo" data-proximo="3">Encontre o caminho para casa</button>
+            <button class="btn-proximo" data-proximo="14">Tente procurar por ajuda</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="img/familiar-passo14.jpg" alt="">
+            <p>Você ouve um barulho familiar a distãncia, é irritante</p>
+            <button class="btn-proximo" data-proximo="4">Investigue</button>
+            <button class="btn-proximo" data-proximo="5">Ignore</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="img/casaparty-passo15.png" alt="">
+            <p>Você vê a festa ainda longe, a coisa esta te seguindo</p>
+            <button class="btn-proximo" data-proximo="18">Corra para dentro</button>
+            <button class="btn-proximo" data-proximo="16">Ajoelhe-se e aceite a derrota</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="img/encontro-passo16.jpg" alt="">
+            <p>A entidade te olha, você a olha de volta.</p>
+            <button class="btn-proximo" data-proximo="17">Continue</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Isso te ataca.
+                Você está inconciente
+            </p>
+            <button class="btn-proximo" data-proximo="35">Continue</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <img src="img/massacre-passo18.png" alt="">
+            <p>MASSACRADOS
+                A entidade te seguiu para a festa e mata CADA. UM.
+            </p>
+        </div>
+        <div class="passo" id="passo-19">
+            <img src="img/baralhodnv-passo19.png" alt="">
+            <p>O barulho... Você o escuta denovo...</p>
+            <button class="btn-proximo" data-proximo="20">Espie pela janela</button>
+            <button class="btn-proximo" data-proximo="25">Ignore, você está apenas ouvindo coisas</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Você olha... algo, mas não consegue entender</p>
+            <button class="btn-proximo" data-proximo="21">Foque a visão</button>
+            <button class="btn-proximo" data-proximo="22">Vá dormir, você está vendo coisas</button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <img src="img/olhos-passo21.png" alt="">
+            <p>Você faz contato visual com a criatura, o barulho fica ainda mais alto e carrega em sua direção
+                ESCONDA-SE
+            </p>
+            <button class="btn-proximo" data-proximo="23">Continue</button>
+        </div>
+
+        <div class="passo" id="passo-22">
+            <img src="img/dormir-passo22.jpg" alt="">
+            <p>Você volta a dormir</p>
+            <button class="btn-proximo" data-proximo="25">Durma</button>
+        </div>
+
+        <div class="passo" id="passo-23">
+            <img src="img/hall-passo23.png" alt="">
+            <p>Você corre para o corredor e precisa achar um lugar seguro</p>
+            <button class="btn-proximo" data-proximo="26">Suba as escadas</button>
+            <button class="btn-proximo" data-proximo="29">Desça para o porão</button>
+        </div>
+        <div class="passo" id="passo-24">
+            <img src="img/quemaidos-passo24.png" alt="">
+            <p>EM CHAMAS
+                Você queima a casa inteiro junto com a entidade dentro.
+            </p>
+
+        </div>
+
+        <div class="passo" id="passo-25">
+            <img src="img/porta-passo25.jpg" alt="">
+            <p>Você é interrompido por um ruido barulhento, sua porta foi aberta...</p>
+            <button class="btn-proximo" data-proximo="31">Durma de qualquer jeito</button>
+            <button class="btn-proximo" data-proximo="27">Dê uma olhada</button>
+        </div>
+
+        <div class="passo" id="passo-26">
+            <img src="img/criaturanoporao-passo26.png" alt="">
+            <p>Você ouve a criatura, ela entrou no seu sotão...</p>
+            <button class="btn-proximo" data-proximo="27">CORRA PELA SUA VIDA E TRANQUE A PORTA DO PORÃO</button>
+            <button class="btn-proximo" data-proximo="28">Procure armas e se prepare para lutar</button>
+        </div>
+
+        <div class="passo" id="passo-27">
+            <img src="img/caracara-passo27.png" alt="">
+            <p>VOCÊ ESTA CARA A CARA COM A ENTIDADE</p>
+            <button class="btn-proximo" data-proximo="28">Corra e se tranque no porão</button>
+            <button class="btn-proximo" data-proximo="34">Desista</button>
+        </div>
+
+        <div class="passo" id="28">
+            <img src="img/voceve-passo28.png" alt="">
+            <p>Você olha... </p>
+            <button class="btn-proximo" data-proximo="32">Corra, empurre para o porão e tranque a porta</button>
+            <button class="btn-proximo" data-proximo="34">Espere por uma oportunidade melhor</button>
+        </div>
+
+        <div class="passo" id="passo-29">
+            <img src="img/portaquebrada-passo29.png" alt="">
+            <p>Você não pode trancar a porta, a fechadura foi esmagada!</p>
+            <button class="btn-proximo" data-proximo="30">A entidade sabe aonde você está...</button>
+
+        </div>
+
+        <div class="passo" id="passo-30">
+            <img src="img/devorado-passo30.png" alt="">
+            <p>DEVORADO ATÉ OS OSSOS
+                A entidade te devorou vivo.
+            </p>
+        </div>
+
+        <div class="passo" id="passo-31">
+            <img src="img/preguiçoso-passo31.png" alt="">
+            <p>PREGUIÇOSO
+                Você não estava ouvindo coisas..
+            </p>
+        </div>
+
+        <div class="passo" id="passo-32">
+            <img src="img/portabixo-passo32.jpg" alt="">
+            <p>A entidade foi presa, mas logo se soltará</p>
+            <button class="btn-proximo" data-proximo="24">Queime a casa toda</button>
+            <button class="btn-proximo" data-proximo="33">CORRA PELA SUA VIDA</button>
+        </div>
+
+        <div class="passo" id="passo-33">
+            <img src="img/portaquase-passo33.png" alt="">
+            <p>Você estava tão perto, mas você ouve a fechadura do porão se quebrando</p>
+            <button class="btn-proximo" data-proximo="27">........</button>
+        </div>
+
+        <div class="passo" id="passo-34">
+            <img src="img/encontro-passo16.jpg" alt="">
+            <p>A ENTIDADE
+                A entidade te abduz e te leva para mata. Sua voz cresce bruscamente, você soa como ela..
+
+                Você se torna uma delas.....
+            </p>
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
